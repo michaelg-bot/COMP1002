@@ -1,0 +1,42 @@
+header{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+header img{
+    padding: 10px;
+    height: 100px;
+    width: auto;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    color: #dff322;
+    justify-content: center;
+    align-items: center;
+}
+menu{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+.row{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.row div{
+    flex: 1;
+}
