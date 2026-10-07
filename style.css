@@ -1,0 +1,31 @@
+body{margin: 0;}
+/* apply fonts to h1 */
+h1, h2, h3, h4, h5, h6{
+    font-family: "Abril Fatface", serif;
+}
+.chorus{
+    font-family: "Bebas Neue", sans-serif;
+}
+.singing{
+    font-family: "Imperial Script", cursive;
+}
+.verses{
+    font-family: "Comic Relief", system-ui;
+}
+header{
+    height: 200px;
+    display: flex;
+    background-color:beige;
+}
+header a img{
+    height: 200px;
+    flex: 1;
+}
+header nav{
+    display: flex;
+}
+header nav menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
