@@ -5,6 +5,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Abril Fatface", serif;
 }
 .chorus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Bebas Neue", sans-serif;
     color: #FAF9F6;
     text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
@@ -13,6 +16,7 @@ h1, h2, h3, h4, h5, h6{
     background-image: url("./road.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .singing{
     font-family: "Imperial Script", cursive;
@@ -24,6 +28,9 @@ h1, h2, h3, h4, h5, h6{
     color: #FFF129;
 }
 .verse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Comic Relief", sans-serif;
     color: #FAF9F6;
     text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
@@ -32,6 +39,7 @@ h1, h2, h3, h4, h5, h6{
     background-image: url("./road.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .rapping{
     font-family: "Permanent Marker", cursive;
@@ -40,6 +48,21 @@ h1, h2, h3, h4, h5, h6{
     background-color: transparent;
     color: #FFF129;
 
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Comic Relief", sans-serif;
+    color: #FAF9F6;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, .8);
+    font-size: 1.25rem;
+    white-space: pre-line;
+    background-image: url("./road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
 }
 
 /* heder styline */ 
