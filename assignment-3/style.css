@@ -5,3 +5,45 @@ body{
   background-size: auto 100vh;
 }
 
+header{
+    font-family: "Permanent Marker";
+    color: white;
+}
+
+.miller{
+    font-family: "Montserrat";
+    color: white;
+}
+
+.names{
+    font-family: "Montserrat";
+    color: white;
+}
+
+.title{
+    font-family: "Anton";
+    color: white;
+}
+
+.subtitle{
+    font-family: "Montserrat";
+    color: white;
+}
+
+.credits{
+    font-family: "Oswald";
+    color: white;
+}
+
+.release{
+    font-family: "Oswald";
+    color: white;
+}
+
+.may{
+    font-family: "Permanent Marker";
+    color: white;
+}
+
+
+
