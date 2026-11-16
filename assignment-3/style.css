@@ -1,5 +1,7 @@
 body{
-    background-image: url("./images/background-logos-and-hashtag.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("./images/stretched-poster.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100vh;
 }
+
