@@ -5,29 +5,55 @@ body{
   background-size: auto 100vh;
 }
 
+
+/*Title text*/
 header{
-    font-family: "Permanent Marker";
-    color: white;
+  padding-top: 1.5rem;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  color: #5fbcc4;
 }
 
 .miller{
-    font-family: "Montserrat";
-    color: white;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: .5rem;
+  letter-spacing: 1em;
+  color: #cfcfcf;
 }
 
 .names{
-    font-family: "Montserrat";
-    color: white;
+  display: flex;
+  justify-content: center;
+  gap: 5vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: #f2b32b;
 }
 
-.title{
-    font-family: "Anton";
-    color: white;
+.title h1 {
+  display: grid;
+  justify-items: center;
+  margin: 0;
+  line-height: .95;  
 }
 
-.subtitle{
-    font-family: "Montserrat";
-    color: white;
+.title .big {
+  font-family: "Anton", sans-serif;
+  font-size: 12rem;
+  color: #f7c52b;
+}
+
+.title .subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: .75rem;
+  letter-spacing: 1.9rem;
+  margin-left: 2.5rem;
+  color: #f2a900;
 }
 
 .credits{
