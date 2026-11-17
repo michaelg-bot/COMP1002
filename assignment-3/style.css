@@ -56,19 +56,35 @@ header{
   color: #f2a900;
 }
 
+/*Credits and Release date at the bottom*/
 .credits{
-    font-family: "Oswald";
-    color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: .35rem;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+}
+
+.small {
+  font-size: 0.2rem;
 }
 
 .release{
-    font-family: "Oswald";
-    color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: .6rem;
+  letter-spacing: 0.05rem;
+  color: #f2e6c9;
+  margin-bottom: 3rem;
 }
 
 .may{
-    font-family: "Permanent Marker";
-    color: white;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0;
+  color: #f2c230;
 }
 
 
