@@ -1,20 +1,26 @@
-body{
+body {
+  min-height: 100vh;                 
+  text-align: center;
   background-image: url("./images/stretched-poster.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto 100vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
+p {
+  margin: 0;
+}
 
-/*Title text*/
-header{
+header {
   padding-top: 1.5rem;
   font-family: "Permanent Marker", cursive;
   font-size: 1.5rem;
   color: #5fbcc4;
 }
 
-.miller{
+.miller {
   margin-top: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -23,7 +29,7 @@ header{
   color: #cfcfcf;
 }
 
-.names{
+.names {
   display: flex;
   justify-content: center;
   gap: 5vh;
@@ -44,7 +50,7 @@ header{
 .title .big {
   font-family: "Anton", sans-serif;
   font-size: 12rem;
-  color: #f7c52b;
+  color: #f7c52b;         
 }
 
 .title .subtitle {
@@ -56,8 +62,7 @@ header{
   color: #f2a900;
 }
 
-/*Credits and Release date at the bottom*/
-.credits{
+.credits {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: .35rem;
@@ -70,7 +75,7 @@ header{
   font-size: 0.2rem;
 }
 
-.release{
+.release {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: .6rem;
@@ -79,13 +84,10 @@ header{
   margin-bottom: 3rem;
 }
 
-.may{
+.may {
   font-family: "Permanent Marker", cursive;
   font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 0;
   color: #f2c230;
 }
-
-
-
